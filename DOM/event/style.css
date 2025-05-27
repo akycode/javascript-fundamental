@@ -17,4 +17,18 @@
 }
 .add-card{
     cursor: pointer;
+    background-color: cornflowerblue;
+    color: #000;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+}
+#button{
+    margin-top: 500px;
+    margin-left: 900px;
+    background-color: brown;
+    border-radius: 50%;
 }
