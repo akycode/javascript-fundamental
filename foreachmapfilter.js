@@ -94,3 +94,8 @@ const somemethod2 = [2,3,4,5,6,6,66,77]
 const methodd2 = somemethod.some((str) => {
     return 5<str})
 console.log(methodd); //True  // ya check krega tab tak jab tak true na mil jaya phir uske baad true return kar dega
+
+
+const everymethod = [
+    {}
+]

@@ -1,0 +1,21 @@
+.container {
+    color: green;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    /* text-align: center; */
+}
+
+img {
+    width: 70px;
+    /* flex-wrap: wrap; */
+}
+
+.img-contain{
+    text-align: center;
+    flex-wrap: wrap;
+}
+.img-contain p {
+    margin: 0;
+    
+}
