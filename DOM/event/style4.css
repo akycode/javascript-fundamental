@@ -1,5 +1,5 @@
 .container {
-    color: green;
+    color: rgb(219, 163, 234);
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
@@ -8,26 +8,27 @@
 .card {
     width: 100px;
     height: 120px;
-    background-color: pink;
+    background-color: rgb(89, 10, 23);
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 4px;
     font-size: 36px;
 }
-.add-card{
+#btn{
     cursor: pointer;
     background-color: cornflowerblue;
     color: #000;
     position: absolute;
-    bottom: 0%;
-    right: 0%;
+    bottom: 1%;
+    right: 1%;
     border-radius: 100%;
     height: 50px;
     width: 50px;
 }
 #button{
-    
+    margin-top: 500px;
+    margin-left: 900px;
     background-color: brown;
     border-radius: 50%;
 }

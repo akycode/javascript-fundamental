@@ -1,6 +1,16 @@
+// Categories:
+// - Mouse: click, dblclick, mousedown, mouseup, mousemove, mouseenter, mouseleave, mouseover, mouseout, contextmenu.
+// - Keyboard: keydown, keyup.
+// - Pointer: pointerdown, pointerup, pointermove, pointerenter, pointerleave, pointerover, pointerout, pointercancel.
+// - Form: submit, reset, input, change, focus, blur.
+// - Window: load, DOMContentLoaded, resize, scroll, unload, beforeunload.
+// - Touch: touchstart, touchmove, touchend, touchcancel.
+// - Clipboard: copy, cut, paste.
+// - Drag & Drop: dragstart, drag, dragenter, dragover, drop, dragend.
+
 //first method  direct html me onclick method element ke tag me pas kardo function
 // function onBlick(){
-//     console.log('listen again');
+//     console.log('listen again');    
 // }
 // // 2nd method
 // card.onclick = onBlick
@@ -30,7 +40,7 @@ const card = document.querySelector('.card')
 
 
 // card.addEventListener('click',function () {
-//     const newcard = card.cloneNode()
+//     const newcard = card.cloneNode()    
 // container.append(newcard)
 // })
 
@@ -38,7 +48,7 @@ const card = document.querySelector('.card')
 
 let count = 1
 card.addEventListener('click',function() {
-const newcard = document.createElement('div')
+const newcard = document.createElement('div')    
 newcard.classList.add('card')
 container.append(newcard)
 newcard.textContent = count++
@@ -47,7 +57,7 @@ newcard.textContent = count++
 // Mouse Event
 
 // card.addEventListener('mouseenter',function() {
-// const newcard = document.createElement('div')
+// const newcard = document.createElement('div')    
 // newcard.classList.add('card')
 // container.append(newcard)
 // newcard.textContent = count++
@@ -71,7 +81,7 @@ newcard.textContent = count++
 //pointer Events
 
 // card.addEventListener('touchstart',function() {
-// const newcard = document.createElement('div')
+// const newcard = document.createElement('div')    
 // newcard.classList.add('card')
 // container.append(newcard)
 // newcard.textContent = count++
@@ -81,14 +91,14 @@ newcard.textContent = count++
 // EVENT SIMULATOR
 
 // card.addEventListener('click',function() {
-// const newcard = document.createElement('div')
+// const newcard = document.createElement('div')    
 // newcard.classList.add('card')
 // container.append(newcard)
 // newcard.textContent = count++
 // })
 // const setintervel = setInterval(()=>{
 //     if (count>100) {
-//         clearInterval(setintervel)
+//         clearInterval(setintervel)    
 //     }
 // card.click()
 // },100)
